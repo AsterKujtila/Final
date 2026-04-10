@@ -1,0 +1,13 @@
+import { Sidebar } from "@/components/app-sidebar";
+
+export default function AppLayout({ children }: { children: React.ReactNode }) {
+  // Ketu supozohet qe keni Middleware qe mbron rruget /dashboard
+  return (
+    <div className="flex h-screen bg-cream overflow-hidden">
+      <Sidebar />
+      <main className="flex-1 overflow-y-auto relative z-10">
+        {children}
+      </main>
+    </div>
+  );
+}
