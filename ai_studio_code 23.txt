@@ -1,0 +1,3 @@
+[
+  {"call": "google:browse", "args": {"urls":["https://app-wheat-chi-37.vercel.app/"]}}
+]
